@@ -72,7 +72,6 @@
     	    width: 100%;
     	    display: flex;
     	}
-    	/*Two column layout*/
     	.two-column {
     	    text-align: center;
     	}
@@ -87,24 +86,23 @@
     	}
     	.inner{
     	    margin: -10px 0px 20px 0px;
-    	    background-color: #EAAA00;
-		    height: 55px;
     	}
     	.button{
     		font-family: "Rockwell", Arial, sans-serif;
     	    font-weight: 700;
+            background-color: #EAAA00;
     	    color: #012169;
-    	    text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 200px;
+            margin: auto;
     	}
-    	.inner:hover {
-    		background-color: #FFFFFF;
-    	}
-    	.inner:hover .button{
-    		color: #EAAA00;
-    	}
-    	.btn2 {
-    		padding-top: 20px;
-    		padding-bottom: 20px;
+        a {
+            text-decoration: none;
+        }
+    	.button:hover {
+    		color: #FFFFFF;
     	}
     	.eael-countdown-items{
     	    list-style: none;
@@ -152,16 +150,11 @@
             <table class="outer" align="center">
                 <tr>
                     <td cellpadding="0" cellspacing="0" border="0" class="full-width-image">
-                        <iframe width="775" height="436" 
-                            src="https://www.youtube.com/embed/ecL_cz4P-cA"
-                            frameborder="0" allow="accelerometer; autoplay; 
-                            clipboard-write; encrypted-media; gyroscope; 
-                            picture-in-picture" allowfullscreen>
-                        </iframe>
+                        <a href="https://www.youtube.com/watch?v=ecL_cz4P-cA"><img src="reskill-thumb.jpg"></a>
                     </td>
                 </tr>
                 <tr>
-                    <td class="one-column col-1st">
+                    <td class="one-column">
                         <table width="100%">
                             <tr>
                                 <td class="inner-contents">
@@ -173,88 +166,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="one-column col-2nd">
-                        <table width="100%">
-                            <tr>
-                                <td class="inner-contents2">
-                                    <div class="countdown-box">
-                                        <ul id="eael-countdown-group" class="eael-countdown-items" data-date="Jan 04 2021 0:00:00">
-                                            <li class="eael-countdown-item">
-                                                <div class="eael-countdown-days">
-                                                    <span data-days="" class="eael-countdown-digits" id="ct-days"></span>
-                                                    <span class="eael-countdown-label">Days</span>
-                                                </div>
-                                            </li>					
-                                            <li class="eael-countdown-item">
-                                                <div class="eael-countdown-hours">
-                                                    <span data-hours="" class="eael-countdown-digits" id="ct-hours"></span>
-                                                    <span class="eael-countdown-label">Hours</span>
-                                                </div>
-                                            </li>				
-                                            <li class="eael-countdown-item">
-                                                <div class="eael-countdown-minutes">
-                                                    <span data-minutes="" class="eael-countdown-digits" id="ct-minutes"></span>
-                                                    <span class="eael-countdown-label">Minutes</span>
-                                                </div>
-                                            </li>				
-                                            <li class="eael-countdown-item">
-                                                <div class="eael-countdown-seconds">
-                                                    <span data-seconds="" class="eael-countdown-digits" id="ct-seconds"></span>
-                                                    <span class="eael-countdown-label">Seconds</span>
-                                                </div>
-                                            </li>				
-                                        </ul>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="one-column col-3rd">
+                    <td class="one-column">
                         <table width="100%">
                             <tr>
                                 <td class="inner-contents3">
                                     <div>Please help us realize our mission to provide technical training, mentorship and community to future tech leaders from historically underrepresented US racial groups.</div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td class="inner">
+                                    <a href="https://reskillamericans.org/donation/"><div class="button">Give Now</div></a>
+                                </td>
+                            </tr>
                         </table>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="two-column">
-                        <!--[if (gte mso 9)|(IE)]>
-	                        <table width="100%">
-	                        <tr>
-	                        <td width="50%" valign="top">
-                        <![endif]-->
-                        <div class="column">
-                            <table width="100%">
-                                    <tr>
-                                        <td class="inner">
-                                            <a href="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/saml2?SAMLRequest=fZHRb4IwEMb%2FFdL3Aq0o2CiJC9tC3JZlM5v6shTaahNokSui%2F%2F3AvWwvS%2B7lLvfl9313C%2BB11bBV547mTZ46Cc7LATqZG3DcuCWiIQ0xGWq2oYTRhBHizwjdIy%2FPligPH2K13dy9iMfr9j6LNrvVue5hz899d7q4Zh3lcTK91k7v6Oe6yPYX8xor89XbqJpr5H3IFrQ1A8YPkZcNeG24u02OzjXAgqCyB238Xhthe%2FCNdEFM1TxJCoWTmSI4IlzhOeEFpiIuRUiIKKI4GINR5F3qygC7pVyirjXMctDADK8lMFey99XzExvgrGmts6WtULoYt9ntCu0v%2Ff9yDiDb0ThKR%2BOD70abgzXSL20dFJzQiKsSS8EFjnghcTItKBbJRHE6n6gyLhfBL2760%2F39TPoN&RelayState=I0F7fXTBNdGyXED4TYAvmwsZavwuqxtpK4I785ymtiY2WKbDZxnP7fn_wo4l9i" class="button">Microsoft Give Campaign<br>(Indicate "Reskill Americans" in comments)</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        <!--[if (gte mso 9)|(IE)]>
-                        	</td><td width="50%" valign="top">
-                        <![endif]-->
-                        <div class="column column2">
-                            <table width="100%">
-                                    <tr>
-                                        <td class="inner">
-                                            <a href="https://reskillamericans.org/donation/" class="button btn2">Give Now</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        <!--[if (gte mso 9)|(IE)]>
-	                        </td>
-	                        </tr>
-	                        </table>
-                        <![endif]-->
                     </td>
                 </tr>
             </table>
@@ -265,39 +189,5 @@
 		    <![endif]-->
         </div>
     </center>
-
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("Jan 4, 2021 0:0:0").getTime();
-        // actual time used is Jan 4,2021 0:32:16
-        
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-        
-        // Get today's date and time
-        var now = new Date().getTime();
-            
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-            
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-        // Output the result
-        document.getElementById("ct-days").innerHTML = days;
-        document.getElementById("ct-hours").innerHTML = hours;
-        document.getElementById("ct-minutes").innerHTML = minutes;
-        document.getElementById("ct-seconds").innerHTML = seconds;
-            
-        // If the count down is over, write some text 
-        if (distance < 0) {
-           clearInterval(x);
-           document.getElementById("eael-countdown-group").innerHTML = "We are Live!";
-          }
-        }, 1000);
-    </script>
 </body>
 </html>
